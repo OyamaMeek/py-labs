@@ -5,8 +5,6 @@
 # 输入： 3 4 5 ,
 #
 # 输出：3,4,5
-x=int(input())
-y=int(input())
-z=int(input())
-c=input()
+x, y, z, c = input().split()
+x, y, z = map(int, (x, y, z))
 print(f"{x}{c}{y}{c}{z}")
