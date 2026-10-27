@@ -34,6 +34,6 @@
   - `memory/agents.md`、`memory/plan.md`、`memory/progress.md`、`memory/verify.md`、`memory/gotchas.md`
   - `docs/CHANGELOG.md`
 
-- **Git 提交**：待提交。
+- **Git 提交**：`83c276d fix: read exercise 7 input from one line`，已推送至 `origin/main`。
 
 ---

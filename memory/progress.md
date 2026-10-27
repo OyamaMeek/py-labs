@@ -6,7 +6,7 @@
 - [x] 修改前输入 `3 4 5 ,`，确认抛出 `ValueError`。
 - [x] 使用 `split` 和 `map` 读取同一行数据。
 - [x] 使用项目解释器运行 4 组输入，输出断言通过，退出码为 0，标准错误为空；`git diff --check` 通过。
-- [ ] 提交并推送。
+- [x] 提交 `83c276d fix: read exercise 7 input from one line`，已推送至 `origin/main`。
 
 ## 历史任务：L1
 
