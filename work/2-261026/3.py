@@ -7,3 +7,6 @@
 # 样例输入：3.99
 #
 # 样例输出：3
+f=float(input())
+i=int(f)
+print(i)
