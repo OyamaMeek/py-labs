@@ -7,3 +7,6 @@
 # 样例输入：3.14159
 #
 # 样例输出：3.14
+f=float(input())
+round(f,2)
+print(f"{f:.2f}")
