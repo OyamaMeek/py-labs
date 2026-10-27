@@ -8,3 +8,4 @@
 x, y, z, c = input().split()
 x, y, z = map(int, (x, y, z))
 print(f"{x}{c}{y}{c}{z}")
+#fix:一行输入
