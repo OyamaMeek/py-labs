@@ -5,3 +5,8 @@
 # 输入： 3 4 5 ,
 #
 # 输出：3,4,5
+x=int(input())
+y=int(input())
+z=int(input())
+c=input()
+print(f"{x}{c}{y}{c}{z}")
