@@ -9,7 +9,6 @@
 # 样例输出：7 3
 
 
-a=int(input())
-b=int(input())
+a, b = map(int, input().split())
 a, b = b, a
 print(a, b)
