@@ -7,3 +7,9 @@
 # 样例输入：3 7
 #
 # 样例输出：7 3
+
+
+a=int(input())
+b=int(input())
+a, b = b, a
+print(a, b)
