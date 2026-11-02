@@ -8,7 +8,10 @@
 #
 # 样例输出：7 3
 
+s=input()
+s1= s.split()
+a=int(s1[0])
+b=int(s1[1])
+a,b=b,a
+print(a,b)
 
-a, b = map(int, input().split())
-a, b = b, a
-print(a, b)
