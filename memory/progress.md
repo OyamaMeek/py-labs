@@ -6,7 +6,7 @@
 - [x] 通过 PyCharm 确认项目解释器为 Python 3.9.6。
 - [x] 编写 18 节详细笔记，包含输出、常见错误、速查表和 6 道练习及答案。
 - [x] Python 3.9.6 doctest：126 条示例全部通过；原练习 4 组输入输出断言通过；`git diff --check` 通过。
-- [ ] 更新开发日志，提交并普通推送至已有的 `origin/main`。
+- [x] 更新开发日志，提交 `51bc3e5 docs: add detailed f-string study notes`，已普通推送至 `origin/main`。
 
 ## 7.py 同一行输入
 

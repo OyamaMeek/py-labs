@@ -54,6 +54,6 @@
   - `memory/agents.md`、`memory/plan.md`、`memory/progress.md`、`memory/verify.md`
   - `docs/CHANGELOG.md`
 
-- **Git 提交**：待提交。
+- **Git 提交**：`51bc3e5 docs: add detailed f-string study notes`，已推送至 `origin/main`。
 
 ---
