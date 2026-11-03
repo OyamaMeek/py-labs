@@ -37,3 +37,23 @@
 - **Git 提交**：`83c276d fix: read exercise 7 input from one line`，已推送至 `origin/main`。
 
 ---
+
+## [2026-11-03 17:13] f-string 详细学习笔记
+
+- **需求/问题描述**：
+  > 结合 `work/3-261102/4.py` 整理一份 f-string 的详细笔记。
+
+- **实际实现的功能与改动**：
+  - 新增 18 节中文笔记，逐项解释原题，覆盖常用格式、表达式、转义、调试、动态格式、日期、常见错误、速查表和 6 道练习答案。
+  - 说明两个 `f` 的区别、最小宽度、浮点舍入和中文显示宽度，附 Python 官方文档链接。
+  - Python 3.9.6 doctest：126 条示例全部通过；原练习普通输入、中文、超宽内容和负数共 4 组输入输出断言通过，退出码为 0、标准错误为空。
+  - `git diff --check` 通过；未修改练习脚本，未新增依赖，未执行视觉检查。
+
+- **涉及文件**：
+  - `docs/f-string笔记.md`
+  - `memory/agents.md`、`memory/plan.md`、`memory/progress.md`、`memory/verify.md`
+  - `docs/CHANGELOG.md`
+
+- **Git 提交**：待提交。
+
+---
