@@ -7,3 +7,8 @@
 # 样例输入：zhangsan_2024@example.com
 # 样例输出：zhangsan_2024
 # example.com
+email = input()
+username = email.split('@')[0]
+domain = email.split('@')[1]
+print(username)
+print(domain)
