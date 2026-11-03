@@ -7,3 +7,9 @@
 # 样例输出：apple:3
 # banana:2
 # cherry:1
+s = input()
+words = s.split()
+for word in words:
+    if words.count(word) > 0:
+        print(f"{word}:{words.count(word)}")
+        words = [w for w in words if w != word]
