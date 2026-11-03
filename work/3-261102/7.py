@@ -7,3 +7,11 @@
 # 样例输入：Level
 # 样例输出：leveL
 # Yes
+s = input()
+s2 = s[::-1]
+print(s2)
+# 判断是否为回文，忽略大小写和首尾空白
+if s.strip().lower() == s2.strip().lower():
+    print("Yes")
+else:
+    print("No")
