@@ -13,5 +13,5 @@
 # Hello NAME World NAME Test
 s = input()
 print(s.lower())
-print(s[7:13])
+print(s[8:13])
 print(s.replace("name", "NAME"))
