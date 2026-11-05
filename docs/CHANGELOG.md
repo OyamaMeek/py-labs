@@ -30,7 +30,7 @@
   - `git diff --check` 通过；未新增依赖或测试框架。
 
 - **涉及文件**：
-  - `work/2-261026/7.py`
+  - `../assignments`
   - `memory/agents.md`、`memory/plan.md`、`memory/progress.md`、`memory/verify.md`、`memory/gotchas.md`
   - `docs/CHANGELOG.md`
 
@@ -41,7 +41,7 @@
 ## [2026-11-03 17:13] f-string 详细学习笔记
 
 - **需求/问题描述**：
-  > 结合 `work/3-261102/4.py` 整理一份 f-string 的详细笔记。
+  > 结合 `../assignments` 整理一份 f-string 的详细笔记。
 
 - **实际实现的功能与改动**：
   - 新增 18 节中文笔记，逐项解释原题，覆盖常用格式、表达式、转义、调试、动态格式、日期、常见错误、速查表和 6 道练习答案。
