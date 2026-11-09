@@ -57,3 +57,23 @@
 - **Git 提交**：`51bc3e5 docs: add detailed f-string study notes`，已推送至 `origin/main`。
 
 ---
+
+## [2026-11-09 13:40] 10.py 乘法表行尾空格
+
+- **需求/问题描述**：
+  > 修复 `assignments/4-261109/10.py`，附件显示判题结果为 Wrong Answer。
+
+- **实际实现的功能与改动**：
+  - 修改一行 print 结束符，仅在同一行的算式之间输出空格，保留嵌套循环。
+  - 修改前回归测试复现行尾空格造成的输出差异；修改后 Python 3.9.6 标准库 unittest 的 2 项测试通过，覆盖样例和全部合法输入 1～9，检查行数、分隔符、顺序、乘积、退出码及标准错误。
+  - `git diff --check` 通过；未新增依赖，未访问判题系统，远端判题结果尚未验证。
+
+- **涉及文件**：
+  - `assignments/4-261109/10.py`（+1 / -1）
+  - `tests/test_multiplication_table.py`
+  - `memory/agents.md`、`memory/plan.md`、`memory/progress.md`、`memory/verify.md`
+  - `docs/CHANGELOG.md`
+
+- **Git 提交**：待提交。
+
+---
