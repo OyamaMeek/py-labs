@@ -95,6 +95,6 @@
   - `memory/agents.md`、`memory/plan.md`、`memory/progress.md`、`memory/verify.md`
   - `docs/CHANGELOG.md`
 
-- **Git 提交**：待提交。
+- **Git 提交**：`63d8ce6 fix: count signed integers from one input line`，已推送至 `origin/main`。
 
 ---

@@ -6,7 +6,7 @@
 - [x] 通过 PyCharm 确认项目解释器为 Python 3.9.6。
 - [x] 用样例回归测试复现附件中的 TypeError。
 - [x] 使用 `map(int,input().split())` 和单层循环完成统计，7 组输入检查通过；包括乘法表在内的 3 项测试全部通过，`git diff --check` 通过。
-- [ ] 更新开发日志，提交并普通推送至当前分支远端。
+- [x] 更新开发日志，提交 `63d8ce6 fix: count signed integers from one input line`，已普通推送至 `origin/main`。
 
 ## 10.py 乘法表输出
 
