@@ -7,3 +7,8 @@
 # 样例输入：8
 # 样例输出：偶数
 
+num=int(input())
+if num%2==0:
+    print("偶数")
+else:
+    print("奇数")
