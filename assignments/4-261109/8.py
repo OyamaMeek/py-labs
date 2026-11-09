@@ -7,3 +7,14 @@
 # 用空格分隔。
 # 样例输入：1 -2 3 -4 5 0
 # 样例输出：3 2
+positive=0
+negative=0
+while True:
+    num=int(input())
+    if num==0:
+        break
+    elif num>0:
+        positive+=1
+    else:
+        negative+=1
+print(positive,negative)
