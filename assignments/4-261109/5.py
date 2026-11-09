@@ -5,3 +5,8 @@
 # 输出格式：一行，一个整数表示阶乘结果。
 # 样例输入：5
 # 样例输出：120
+n=int(input())
+factorial=1
+for i in range(1,n+1):
+    factorial*=i
+print(factorial)
