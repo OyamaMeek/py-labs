@@ -12,3 +12,13 @@
 # 样例输出：小了
 # 大了
 # 猜对了
+num=42
+while True:
+    guess=int(input())
+    if guess<num:
+        print("小了")
+    elif guess>num:
+        print("大了")
+    else:
+        print("猜对了")
+        break
