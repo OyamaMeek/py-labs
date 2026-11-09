@@ -6,3 +6,12 @@
 # 输出格式：一行，一个整数，表示最大值。
 # 样例输入：3 9 5
 # 样例输出：9
+a=int(input())
+b=int(input())
+c=int(input())
+if a>=b and a>=c:
+    print(a)
+elif b>=a and b>=c:
+    print(b)
+else:
+    print(c)
