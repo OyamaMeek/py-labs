@@ -8,3 +8,7 @@
 # 样例输入：4
 # 80 90 70 100
 # 样例输出：85.00
+n=int(input())
+scores=list(map(int,input().split()))
+average=sum(scores)/n
+print("{:.2f}".format(average))
