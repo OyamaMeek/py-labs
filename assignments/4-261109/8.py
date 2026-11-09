@@ -9,12 +9,11 @@
 # 样例输出：3 2
 positive=0
 negative=0
-while True:
-    num=int(input())
-    if num==0:
+for x in map(int,input().split()):
+    if x == 0:
         break
-    elif num>0:
-        positive+=1
+    elif x > 0:
+        positive += 1
     else:
-        negative+=1
+        negative += 1
 print(positive,negative)

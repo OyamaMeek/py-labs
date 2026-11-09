@@ -77,3 +77,24 @@
 - **Git 提交**：`e724433 fix: remove trailing spaces from multiplication table`，已推送至 `origin/main`。
 
 ---
+
+## [2026-11-09 13:44] 8.py 单行正负数统计
+
+- **需求/问题描述**：
+  > 修复 `assignments/4-261109/8.py`，附件显示运行时抛出 TypeError。
+
+- **实际实现的功能与改动**：
+  - 调用 `split()` 并通过 `map(int, ...)` 转换整数，使用单层循环，在首个 0 处停止统计，输出正数和负数个数。
+  - 修改前测试复现附件中的 TypeError；修改后样例、仅 0、全正数、全负数、额外空白、结束标志和较大整数共 7 组实际输入输出检查通过。
+  - Python 3.9.6 标准库 unittest 全部 3 项测试通过，包含已有乘法表测试；`git diff --check` 通过。
+  - 未新增依赖，未访问判题系统，网站判题结果尚未验证。
+
+- **涉及文件**：
+  - `assignments/4-261109/8.py`
+  - `tests/test_sign_counts.py`
+  - `memory/agents.md`、`memory/plan.md`、`memory/progress.md`、`memory/verify.md`
+  - `docs/CHANGELOG.md`
+
+- **Git 提交**：待提交。
+
+---
