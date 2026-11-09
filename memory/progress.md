@@ -6,7 +6,7 @@
 - [x] 通过 PyCharm 确认项目解释器为 Python 3.9.6。
 - [x] 运行回归测试，确认修改前因行尾空格失败。
 - [x] 仅修改输出结束符；标准库 unittest 的 2 项测试通过，覆盖样例和全部合法输入 1～9；`git diff --check` 通过。
-- [ ] 更新日志，提交并向当前分支配置的远端普通推送。
+- [x] 更新日志，提交 `e724433 fix: remove trailing spaces from multiplication table`，已普通推送至 `origin/main`。
 
 ## f-string 详细笔记
 
