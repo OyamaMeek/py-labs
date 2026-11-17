@@ -9,3 +9,12 @@
 # 10 20 30
 # 样例输出：(10, 20, 30)
 # [0, 20, 30]
+num=int(input())
+list = [0] * num
+values = input().split()
+for i in range(num):
+    list[i] = int(values[i])
+tuple1 = tuple(list)
+print(tuple1)
+list[0] = 0
+print(list)
