@@ -13,3 +13,14 @@
 # NoneType
 # [3, 2, 1]
 # NoneType
+n=int(input())
+list = [0] * n
+values = input().split()
+for i in range(n):
+    list[i] = int(values[i])
+sort_list = list.sort()
+print(list)
+print(type(sort_list).__name__)
+reverse_list = list.reverse()
+print(list)
+print(type(reverse_list).__name__)
