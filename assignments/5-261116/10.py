@@ -18,3 +18,21 @@
 # 1 2 3 4 5
 # 1 2
 # 1 2 5
+num_1=int(input())
+A=set(map(int,input().split()))
+num_2=int(input())
+B=set(map(int,input().split()))
+#这什么我看不懂
+# intersection=set_1 & set_2
+# union=set_1 | set_2
+# difference=set_1 - set_2
+# symmetric_difference=set_1 ^ set_2
+# print(" ".join(map(str,sorted(intersection))))
+# print(" ".join(map(str,sorted(union))))
+# print(" ".join(map(str,sorted(difference))))
+# print(" ".join(map(str,sorted(symmetric_difference))))
+
+print(*sorted(A & B))  # 交集：两个集合都有的元素
+print(*sorted(A | B))  # 并集：两个集合的所有元素，自动去重
+print(*sorted(A - B))  # 差集：A 中有、B 中没有的元素
+print(*sorted(A ^ B))  # 对称差：只在其中一个集合里的元素
