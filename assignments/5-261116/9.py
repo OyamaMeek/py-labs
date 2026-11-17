@@ -8,3 +8,17 @@
 # 3 1 2 3 1 2
 # 样例输出：3
 # 1 2 3
+dic={}
+n=int(input())
+values = input().split()
+for i in range(n):
+    dic[int(values[i])]=1
+list1=list(dic.keys())
+list1.sort()
+print(len(list1))
+for i in range(len(list1)):
+    if i==len(list1)-1:
+        print(list1[i])
+    else:
+        #防止换行
+        print(list1[i],end=" ")
