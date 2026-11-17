@@ -11,3 +11,13 @@
 # 90
 # 60
 # 75.00
+num=int(input())
+list = [0] * num
+values = input().split()
+for i in range(num):
+    list[i] = int(values[i])
+print(len(list))
+print(sum(list))
+print(max(list))
+print(min(list))
+print(f"{sum(list)/len(list):.2f}")
