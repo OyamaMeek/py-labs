@@ -5,3 +5,6 @@
 # 输出格式：一行输出交换后的 a 和 b，用空格分隔。
 # 样例输入：3 8
 # 样例输出：8 3
+a,b=map(int,input().split())
+a,b=b,a
+print(a,b)

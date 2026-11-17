@@ -4,8 +4,8 @@
 # 后、修改后、删除后各输出一次字典内容，get 只输出查询结果（查询
 # 值或 -1）。
 # 输入格式：第一行输入整数 m，表示初始键值对个数；接下来 m 行，
-# 每行 "key value" 形式，value 为整数；然后一行输
-# 入 add_key add_value；再一行输入 mod_key
+# 每行 "key value" 形式，value 为整数；然后一行输入
+# add_key add_value；再一行输入 mod_key
 #  mod_value（保证 mod_key 已存在）；再一行输入 
 # get_key；再一行输入 del_key（保证 del_key 
 # 已存在）。
@@ -24,3 +24,23 @@
 # {'a': 10, 'b': 2, 'c': 3}
 # -1
 # {'b': 2, 'c': 3}
+dic = {}
+m=int(input())
+for i in range(m):
+    key,value=input().split()
+    dic[key]=int(value)
+add_key,add_value=input().split()
+dic[add_key]=int(add_value)
+print(dic)
+mod_key,mod_value=input().split()
+dic[mod_key]=int(mod_value)
+print(dic)
+get_key=input()
+# print(dic.get(get_key,-1))
+if get_key in dic:
+    print(dic[get_key])
+else:
+    print(-1)
+del_key=input()
+del dic[del_key]
+print(dic)
