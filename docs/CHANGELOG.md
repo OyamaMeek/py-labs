@@ -98,3 +98,21 @@
 - **Git 提交**：`63d8ce6 fix: count signed integers from one input line`，已推送至 `origin/main`。
 
 ---
+
+## [2026-11-17 16:30] 8.py 使用字典键输出词频
+
+- **需求/问题描述**：
+  > 将词频输出循环改成使用 key。
+
+- **实际实现的功能与改动**：
+  - 使用 `key` 遍历 `word_count.keys()`，通过 `word_count[key]` 读取次数，保持原有输出顺序及格式。
+  - Python 3.9.6 实际运行样例、重复单词、首次出现顺序和空行共 4 组输入，输出、退出码和标准错误检查通过；`git diff --check` 通过。
+
+- **涉及文件**：
+  - `assignments/5-261116/8.py`（本次 +2 / -2）
+  - `memory/agents.md`、`memory/plan.md`、`memory/progress.md`、`memory/verify.md`
+  - `docs/CHANGELOG.md`
+
+- **Git 提交**：未提交：本次两行依赖目标脚本中用户已有的未提交统计实现，无法独立形成可运行提交，保留已有修改且未推送。
+
+---
