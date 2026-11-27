@@ -6,3 +6,19 @@
 # 输出格式：一行，所有整数之和。
 # 样例输入：1 2 3 4
 # 样例输出：10
+def total(*nums):
+    sum = 0
+    for num in nums:
+        sum += num
+    return sum
+
+
+nums=input().split()
+nums = list(map(int, nums))
+print(total(*nums))
+
+
+
+
+# numbers = list(map(int, input().split()))
+# print(total(*numbers))
