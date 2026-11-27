@@ -7,3 +7,13 @@
 # 输出格式：一行，年假天数。
 # 样例输入：3
 # 样例输出：10
+def vacation_days(years):
+    if years < 1:
+        return 5
+    elif 1 <= years < 10:
+        return 10
+    else:
+        return 15
+
+years = int(input())
+print(vacation_days(years))
