@@ -7,3 +7,9 @@
 # 样例输入：4 5
 # 样例输出：9
 # 20
+def two(a, b):
+    return a + b, a * b
+a, b = map(int, input().split())
+sum, mul= two(a, b)
+print(sum)
+print(mul)
