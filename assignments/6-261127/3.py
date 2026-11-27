@@ -8,3 +8,9 @@
 # 样例输入：2 3
 # 样例输出：5
 # None
+def show(a, b):
+    print(a + b)
+
+a, b = map(int, input().split())
+#show(a, b)
+print(show(a, b))
