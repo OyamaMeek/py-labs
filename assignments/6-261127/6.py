@@ -6,3 +6,11 @@
 # 输出格式：一行，乘方结果。
 # 样例输入：5
 # 样例输出：25
+def power(base, exp=2):
+    return base ** exp
+
+numbers = list(map(int, input().split()))
+if len(numbers) == 1:
+    print(power(numbers[0]))
+else:
+    print(power(numbers[0], numbers[1]))
