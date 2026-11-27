@@ -7,3 +7,17 @@
 # 输出格式：一行，方差，保留 2 位小数。
 # 样例输入：1 2 3
 # 样例输出：0.67
+def variance(*nums):
+    #一个数好像自己减自己等于0了
+    if len(nums) <= 1:
+        return 0.0
+    #平均数
+    mean = sum(nums) / len(nums)
+    #方差
+    var = sum((x - mean) ** 2 for x in nums) / len(nums)
+    return var
+
+nums=input().split()
+#转换成浮点数列表
+nums = list(map(float, nums))
+print(f"{variance(*nums):.2f}")
